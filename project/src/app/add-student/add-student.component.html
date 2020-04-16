@@ -1,0 +1,42 @@
+<div class="main-container">
+<div class="form-container">
+<h1> student registration form</h1>
+    <form >
+        <br/>
+     <br/>
+             <div class="form-group">
+        <label>student id</label>
+             <input type = "text" name = "sid"    placeholder = "studentid" [(ngModel)]="userDetails.sid" class="form-control" #id="ngModel" [class.is-invalid]="id.is-invalid && id.touched">
+                 <br/>
+                     <small>id is reqqired </small>
+                  </div>
+         <div class="form-group">
+             <label>student name</label>
+             <input type = "text" name = "name" placeholder = "studentname" [(ngModel)]="userDetails.name" class="form-control">
+                 <br/>
+                     </div>
+             <div class="form-group">
+                <label>student address</label>
+                      <input type = "text" name = "address" placeholder = "studentaddress" [(ngModel)]="userDetails.address"   class="form-control">
+                         <br/>
+                            </div>
+                <input type = "submit" value = "submit" (click)="addstudent()"  class="form-group"/>
+                        </form>
+                        <br/>
+
+</div>
+
+
+<div class="result-container">
+
+<h1>student registered details</h1>
+<h1>{{message}}</h1>
+    {{userDetails.studentid}}
+    <br/>
+    {{userDetails.studentname |uppercase }}
+    <br/>
+   
+    {{userDetails.studentaddress| uppercase}}
+</div>
+
+</div>

@@ -1,0 +1,22 @@
+<table border="1">
+    <tr>
+    <th>
+        student id
+    </th>
+    <th>student name</th>
+    <th>student address</th>
+    <th>edit student</th>
+    <th> delete student</th>
+</tr>
+
+
+        <tr *ngFor = "let student of students">  
+            <td> {{student.sid}}</td>  
+            <td>{{student.name}}</td>  
+            <td>{{student.address}}</td>
+          
+<td><button class="btn btn-primary">edit</button></td>
+<td><button type="button" class="btn btn-danger">delete</button>
+</td>
+    </tr>
+</table>

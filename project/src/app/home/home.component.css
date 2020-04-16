@@ -1,0 +1,53 @@
+.main-container
+{
+    height: 500px;
+    width: 100%;
+    float: left;
+    border: solid 3px;
+    border-radius: 2px;
+
+
+
+}
+.main-container .first-container
+{
+    height: 500px;
+    width: 40%;
+    float: left;
+    background-color: skyblue;
+    border: solid 3px;
+border-radius: 2px;
+border-left: solid 2px;
+
+}
+
+.main-container .secound-container
+{
+    height: 500px;
+    width: 30%;
+    float: left;
+    border: solid 3px;
+    border-radius: 2px;
+    border-left: solid 2px;
+
+}
+
+.main-container .third-container
+{
+    height: 500px;
+    width: 30%;
+    float: left;
+    border: solid 3px;
+    border-left: solid 2px;
+
+}
+img{
+    align-content: center;
+    border-image: fill;
+    border-radius: 2px;
+    text-align: center;
+    align-items: center;
+}
+p{
+    text-align: justify;
+}

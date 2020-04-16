@@ -1,0 +1,32 @@
+#main-container
+{
+    height: 986px;
+    width: 100%;
+    float: left;
+}#main-container .first-container
+{
+    height: 986px;
+    width: 25%;
+    float: left;
+}
+#main-container .secound-container
+{
+    height: 986px;
+    width: 25%;
+    float: left;
+}#main-container .third-container
+{
+    height: 986px;
+    width: 25%;
+    float: left;
+}#main-container .fourth-container
+{
+    height: 986px;
+    width: 25%;
+    float: left;
+}
+button
+{
+    height: 50px;
+    width: 400px;
+}

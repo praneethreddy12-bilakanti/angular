@@ -1,0 +1,29 @@
+
+table{
+    height: 300px;
+    width: 80%;
+    text-align: center;
+    border-color: tomato;
+    border-style:solid;
+padding: 40px;
+    margin: 10px,10px,10px,100px;
+}
+th,tr
+{
+    text-align: center ;
+    text-transform: uppercase;
+    height: 50px;
+}
+.btn btn-primary
+{
+    height: 100px;
+    width: 200px;
+    border-width: 20px;
+border-radius: 0px;
+}
+button
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+}

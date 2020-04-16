@@ -1,0 +1,16 @@
+
+table{
+    height: 300px;
+    width: 80%;
+    text-align: center;
+    border-color: tomato;
+    border-radius: 4px;
+    border-style:groove;
+
+    margin: 10px,10px,10px,100px;
+}
+th
+{
+    text-align: center ;
+    text-transform: uppercase;
+}

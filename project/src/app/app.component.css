@@ -1,0 +1,22 @@
+.navbar-header
+
+{
+height: 100px;
+width: 100%;
+background-color: steelblue;
+text-transform: uppercase;
+text-align: center;
+}
+.navbar-header
+{
+    height: 100PX;
+}
+ul li a{
+    float: left;
+    width: 100%;
+padding: 30px;}
+.footer
+{
+    color: red;
+background-color:skyblue;
+}
